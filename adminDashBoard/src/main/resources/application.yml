@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+
+server:
+  port: 9090
+
+regioninfo:
+  region: UK
+  version: 1
+
+---
+spring:
+  profiles: qa
+
+server:
+  port: 9091
+
+regioninfo:
+  region: CY
+  version: 1
