@@ -35,8 +35,8 @@ spring:
     mode: HTML5
     prefix: classpath:/templates/
     suffix: .html
-    # excluded-view-names:
-    # template-resolver-order:
+      # excluded-view-names:
+      # template-resolver-order:
     # view-names:
 
 server:
@@ -57,6 +57,11 @@ logging:
     console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
     file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 ---
 spring:
   profiles: qa
