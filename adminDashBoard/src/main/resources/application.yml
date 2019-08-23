@@ -25,6 +25,20 @@ spring:
       enabled: true
       path: /console
 
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+    # excluded-view-names:
+    # template-resolver-order:
+    # view-names:
+
 server:
   port: 8080
 
