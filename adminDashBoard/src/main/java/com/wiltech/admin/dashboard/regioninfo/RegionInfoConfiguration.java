@@ -1,4 +1,4 @@
-package com.wiltech.admin.dashboard.controller;
+package com.wiltech.admin.dashboard.regioninfo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

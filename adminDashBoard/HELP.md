@@ -13,3 +13,7 @@ See RegionInfoCOnfiguration and how it is autowired to the app server
 To run for sa specif profile, run the following commoand;
     `mvn spring-boot:run -Dspring.profiles.active={profileName}`
    In the example here it is mvn spring-boot:run -Dspring.profiles.active=qa
+   
+   
+  #H2 database
+  To access the h2 database, go to the url http://localhost:8080/console and use `sa` as username and leave the password blank
