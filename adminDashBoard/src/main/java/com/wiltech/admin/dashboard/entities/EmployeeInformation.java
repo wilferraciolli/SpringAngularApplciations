@@ -15,7 +15,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "EmployeeInformation", schema = "adminDashApp")
+@Table(name = "EmployeeInformation")
 public class EmployeeInformation extends KeyEntity {
 
     private String _name;

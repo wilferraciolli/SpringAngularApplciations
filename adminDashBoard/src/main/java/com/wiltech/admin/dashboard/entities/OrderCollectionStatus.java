@@ -13,7 +13,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "OrderCollectionStatus", schema = "adminDashApp")
+@Table(name = "OrderCollectionStatus")
 public class OrderCollectionStatus extends KeyEntity {
     private int newOrders;
     private double revenue;

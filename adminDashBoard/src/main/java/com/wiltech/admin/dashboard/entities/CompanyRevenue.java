@@ -14,7 +14,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "Company_Revenue", schema = "adminDashApp")
+@Table(name = "Company_Revenue")
 public class CompanyRevenue extends KeyEntity {
 
     @Column(name = "Revenue_Month", nullable = false)
