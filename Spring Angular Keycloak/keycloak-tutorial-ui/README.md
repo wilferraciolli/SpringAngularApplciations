@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Developer notes
 Add keycloak to the project
-    run `npm i keycloak-js`
+    run `npm install keycloak-js --save`
 
 
 ## Development server
